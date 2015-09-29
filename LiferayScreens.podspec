@@ -58,10 +58,10 @@ Pod::Spec.new do |s|
 	s.dependency 'ODRefreshControl'
 
 	# Login & signup: save credentials
-	s.dependency 'KeychainAccess'
+	s.dependency 'KeychainAccess', '1.2.1'
 
 	# UserPortrait
-	s.dependency 'CryptoSwift'
+	s.dependency 'CryptoSwift', '0.0.10'
 
 	# DDLForm
 	s.dependency 'DTPickerPresenter'
